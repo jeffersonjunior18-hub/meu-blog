@@ -13,7 +13,7 @@
 <body>
 
     <header>
-    <img src="logo.png" alt="Logo Empreenda+" class="logo">
+    <img src="Design sem nome (12).png" alt="Logo Empreenda+" class="logo">
 
     <h1>Empreenda+</h1>
 
@@ -26,41 +26,107 @@
         <a href="#post">Post</a>
     </nav>
 
-    <main>
-
-        <section id="inicio" class="hero">
-            <h2>Bem-vindo ao Empreenda+</h2>
-
-            <p>
-                Conteúdos para quem deseja transformar
-                ideias em oportunidades.
-            </p>
-
-            <button onclick="mostrarMensagem()">
-                Conheça o blog
-            </button>
-        </section>
-
-        <section id="sobre">
-            <h2>Sobre o blog</h2>
-
-            <p>
-                O Empreenda+ é um blog criado para compartilhar
-                conhecimentos, dicas e informações sobre
-                empreendedorismo.
-            </p>
-
-            <p>
-                Aqui você encontrará conteúdos sobre criação
-                de negócios, inovação, planejamento, startups
-                e estratégias para transformar boas ideias
-                em oportunidades.
-            </p>
-        </section>
-
-       <section id="post">
+    <section id="post">
 
     <h2>Últimos posts</h2>
+
+    <div class="posts">
+
+        <article class="post">
+            <span>EMPREENDEDORISMO</span>
+
+            <h3>5 passos para começar a empreender</h3>
+
+            <p>
+                Descubra os principais passos para transformar
+                uma ideia em uma oportunidade de negócio.
+            </p>
+
+            <button onclick="abrirPost(1)">
+                Ler post
+            </button>
+        </article>
+
+
+        <article class="post">
+            <span>INOVAÇÃO</span>
+
+            <h3>Como ter ideias para novos negócios?</h3>
+
+            <p>
+                A inovação pode surgir da observação de problemas
+                do dia a dia.
+            </p>
+
+            <button onclick="abrirPost(2)">
+                Ler post
+            </button>
+        </article>
+
+
+        <article class="post">
+            <span>STARTUPS</span>
+
+            <h3>O que é uma startup?</h3>
+
+            <p>
+                Entenda o conceito de startup e como esse modelo
+                de negócio funciona.
+            </p>
+
+            <button onclick="abrirPost(3)">
+                Ler post
+            </button>
+        </article>
+
+    </div>
+
+
+    <!-- Área onde o post completo vai aparecer -->
+
+    <div id="postCompleto" class="post-completo"></div>
+
+</section>
+
+        <article class="post">
+            <span>INOVAÇÃO</span>
+
+            <h3>Como ter ideias para novos negócios?</h3>
+
+            <p>
+                A inovação pode surgir da observação de problemas
+                do dia a dia.
+            </p>
+
+            <button onclick="abrirPost(2)">
+                Ler post
+            </button>
+        </article>
+
+
+        <article class="post">
+            <span>STARTUPS</span>
+
+            <h3>O que é uma startup?</h3>
+
+            <p>
+                Entenda o conceito de startup e como esse modelo
+                de negócio funciona.
+            </p>
+
+            <button onclick="abrirPost(3)">
+                Ler post
+            </button>
+        </article>
+
+    </div>
+
+
+    <!-- Área onde o post completo vai aparecer -->
+
+    <div id="postCompleto" class="post-completo"></div>
+
+</section>
 
     <div class="posts">
 

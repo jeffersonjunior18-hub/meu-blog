@@ -132,4 +132,26 @@ footer {
 
 .post button {
     margin-top: 15px;
+}.post-completo {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.post-completo h2 {
+    color: #172554;
+    margin-bottom: 20px;
+}
+
+.post-completo h3 {
+    color: #2563eb;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.post-completo p {
+    margin-bottom: 10px;
+    color: #475569;
 }
