@@ -131,11 +131,11 @@ function abrirPost(numero) {
     });
 }
 const slides = [
-    "post1.png",
-    "post2.png",
-    "post3.png",
-    "post4.png",
-    "post5.png"
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png"
 ];
 
 let slideAtual = 0;
