@@ -130,3 +130,39 @@ function abrirPost(numero) {
         behavior: "smooth"
     });
 }
+const slides = [
+    "post1.png",
+    "post2.png",
+    "post3.png",
+    "post4.png",
+    "post5.png"
+];
+
+let slideAtual = 0;
+
+function mudarSlide(direcao) {
+
+    slideAtual += direcao;
+
+    if (slideAtual >= slides.length) {
+        slideAtual = 0;
+    }
+
+    if (slideAtual < 0) {
+        slideAtual = slides.length - 1;
+    }
+
+    document.getElementById("slide").src = slides[slideAtual];
+
+    const bolinhas = document.querySelectorAll(".bolinha");
+
+    bolinhas.forEach(function(bolinha, index) {
+
+        bolinha.classList.remove("ativa");
+
+        if (index === slideAtual) {
+            bolinha.classList.add("ativa");
+        }
+
+    });
+}
