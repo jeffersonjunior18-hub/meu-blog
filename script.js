@@ -138,7 +138,7 @@ const slides = [
     "5.png",
     "6.png",
     "7.png",
-    "8.png",
+    "post8.png"
 ];
 
 let slideAtual = 0;
@@ -160,12 +160,10 @@ function mudarSlide(direcao) {
     const bolinhas = document.querySelectorAll(".bolinha");
 
     bolinhas.forEach(function(bolinha, index) {
-
         bolinha.classList.remove("ativa");
 
         if (index === slideAtual) {
             bolinha.classList.add("ativa");
         }
-
     });
 }
